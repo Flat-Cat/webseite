@@ -32,3 +32,6 @@ ________________________________________________________________________________
 _--Save_-dev_____________________________________________________________________________________________________
 
 --Save -dev bezieht sich auf die Verwendung der Option --save-dev oder --save-devDependencies bei der Installation eines Pakets. Durch das Hinzufügen des Pakets als Entwicklungsabhängigkeit wird es nur für die Entwicklungsumgebung benötigt und nicht für die Produktionsumgebung. Das bedeutet, dass das Paket nicht in der finalen Build- oder Veröffentlichungsversion deiner Anwendung enthalten sein wird. Es wird jedoch verwendet, um beispielsweise den Entwicklungsprozess zu erleichtern, Werkzeuge bereitzustellen oder während der Entwicklung zu testen.
+
+
+Npm run build images 
