@@ -13,8 +13,7 @@ dist-ssr
 *.local
 
 # Editor directories and files
-.private.artgallery*
-.private.other*
+private
 .vscode/*
 !.vscode/extensions.json
 .idea
