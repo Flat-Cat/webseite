@@ -8,7 +8,7 @@ function Navbar(_props: navbarProps) {
 
   // Return => Funk. Reaktiven HTML Code generieren der asynchron auf Events reagiert
   return (
-    <nav className="navbar" role="navigation" aria-label="main navigation">
+    <nav className="navbar is-fixed-top" role="navigation" aria-label="main navigation">
     <div className="container">
 
       <div className="navbar-brand">

@@ -1,4 +1,3 @@
-import { ReactComponent as Logo } from "../../public/favicon.svg";
 import "./Home.scss";
 import './Resume.scss'
 import SkillBar from '../components/SkillBar/SkillBar'
@@ -42,7 +41,6 @@ function Home() {
 {/* Skill-bar*/}
             <div className="column is-2 py-0"></div>
             <div className="column is-3 py-0 picColumn">
-              <Logo></Logo>
             </div>
           </div>
         </div>
