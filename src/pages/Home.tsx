@@ -16,28 +16,30 @@ function Home() {
           <div className="columns my-0">
             <div className="column is-7 textColumn">
               <div className="mt-5 home-lead">
-                FlatCat: Developer and Artist
+                Developer and Artist
               </div>
               <h1>
-                Hi! My Name is Jenni!
+                My Name is Jenny!
                 <br />
                 Nice to meet you!
               </h1>
+              <div className="column is-3"></div>
+{/* Button */}
               <button
                 className="button is-medium is-primary mr-5"
-                onClick={onContact}
-              >
-                Contact
+                onClick={onContact}>
+                Contact me
               </button>
+              
               <a
-                href="https://github.com/Flat-Cat/webseite"
+                href="https://github.com/Flat-Cat/"
                 target="_blank"
-                className="button is-medium is-link"
-              >
+                className="button is-medium is-link">
                 GitHub
               </a>
             </div>
 
+{/* Skill-bar*/}
             <div className="column is-2 py-0"></div>
             <div className="column is-3 py-0 picColumn">
               <Logo></Logo>
@@ -56,6 +58,7 @@ function Home() {
           <button className="button is-medium is-white mr-5">Resume</button>
         </div>
       </section>
+{/* contact me */}
       <section className="home-contact">
         <div className="container">
           <Contact></Contact>
