@@ -32,15 +32,15 @@ function App() {
 
       <footer className="footer">
   <div className="content has-text-centered">
-    {/* <p>
-      <strong>Website</strong> by 
-      <a href="https://www.xing.com/profile/"> XING</a>. Art By
-      <a href=""> </a>. Done with
-      <a href=""></a>.
-    </p> */}
+
     <strong>Website</strong>
-    <p>Copyright Jennifer Flaig</p>
-    <p>Art by Testti</p>
+    <p>Copyright  ©Jennifer Flaig</p>
+    <p>
+      <span>Art by </span>
+      <a href="https://z0r.de/" target="_blank">
+      Studio Baku
+    </a>
+    </p>
 
   </div>
 </footer>

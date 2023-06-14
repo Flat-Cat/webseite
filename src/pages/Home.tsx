@@ -10,9 +10,9 @@ function Home() {
   // HomePictures
   return (
     <div className="Home">
-      <section className="home-introduction">
-        <div className="container">
-          <div className="columns my-0">
+      <section className="home-introduction has-background-white-ter">
+        <div className="container ">
+          <div className="columns my-0 ">
             <div className="column is-7 textColumn">
               <div className="mt-5 home-lead">
                 Developer and Artist
