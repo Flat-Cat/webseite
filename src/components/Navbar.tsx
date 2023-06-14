@@ -4,6 +4,7 @@ type navbarProps = {
   title: string;
 }
 
+
 function Navbar(_props: navbarProps) {
 
   // Return => Funk. Reaktiven HTML Code generieren der asynchron auf Events reagiert

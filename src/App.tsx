@@ -30,13 +30,13 @@ function App() {
         <Route path="/contact" element={<Contact/>}/>
       </Routes>
 
-      <footer className="footer">
+      <footer className="footer has-background-primary-light">
   <div className="content has-text-centered">
 
-    <strong>Website</strong>
-    <p>Copyright  ©Jennifer Flaig</p>
+    <strong>Website </strong>
+    <span>Copyright  ©Jennifer Flaig</span>
     <p>
-      <span>Art by </span>
+      <span>Art in home-side (?) by </span>
       <a href="https://z0r.de/" target="_blank">
       Studio Baku
     </a>
