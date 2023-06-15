@@ -3,13 +3,23 @@ import "./ArtGallery.scss";
 function ArtGallery() {
   return (
 
-    <div className="container">
+    <div className="container px-4">
       <div className="columns">
         <div className="column">
 
 
         <div className="gallery mt-6">
-      <h1 className="title has-text-black">Art Gallery</h1>
+        <div>
+  <h1 className="title has-text-black">Art Gallery</h1>
+  <div className="subtitle">Bechreibe dichwas das für bilder sind und was dich dazu bewegt.</div>
+  <p>
+    <strong>Wieso malst du Bilder?</strong> Aus <em>spass</em>? Als <em>ventil</em>?
+  </p>
+  <p style={{paddingBottom: '16px'}}>
+      Welche Malwerkzeuge benutzt du?
+  </p>
+{/* xxx hier text ändern und padding nach unten und header padding nach unten  */}
+  </div>
       {[
         { src: 'bild01.webp', caption: 'Nyam', description: 'Aquarelle, Fineliner' },
         { src: 'bild02.webp', caption: 'Astra-ur, mein Freund', description: 'Prost. Gouache' },
@@ -41,17 +51,17 @@ function ArtGallery() {
             </div>
             <div className="card-content">
               <div className="media">
-                <div className="media-left"></div>
+
                 <div className="media-content">
                   <p className="subtitle is-6">{item.caption}</p>
                 </div>
               </div>
-              <div className="content">{item.description}</div>
+              {/* <div className="content">{item.description}</div> */}
             </div>
           </div>
         </div>
       ))}
-      
+
         </div>
       </div>
 

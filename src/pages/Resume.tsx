@@ -6,7 +6,7 @@ function Resume() {
   return (
     <div className="resume ">
       <section className="py-6 ">
-        <div className="container ">
+        <div className="container px-4">
           <div className="columns ">
             <div className="column is-3 ">
             </div>
@@ -48,7 +48,7 @@ function Resume() {
       </section>
 
       <section className="py-6">
-        <div className="container">
+        <div className="container px-4">
           {/* _Berufliche_station_01_________________________________________________*/}
           <h2 className="title pb-5 has-background-grey-lighter">Vocational stations</h2>
           <div className="columns my-0">

@@ -1,7 +1,6 @@
 import "./Home.scss";
 import SkillBar from '../components/SkillBar/SkillBar'
 import Contact from '../components/Contact/Contact'
-import Resume from "./Resume";
 import { Link } from "react-router-dom";
 
 
@@ -14,10 +13,10 @@ function Home() {
     <div className="Home ">
       
       <section className="home-introduction has-background-white-ter pt-6">
-        <div className="container ">
+        <div className="container px-4">
 {/* columns*/}
           <div className="columns my-0 ">
-            <div className="column is-6 ">
+            <div className="column is-6 py-0">
               <div className="mt-5 home-lead "> Developer and Artist 
               </div>
               <h1> 
@@ -26,7 +25,7 @@ function Home() {
               </h1>
 {/* Button */}
               <button
-                className="button is-medium is-primary mr-5"
+                className="button is-medium is-primary mr-5 mt-5"
                 onClick={onContact}>
                 Contact me
               </button>
@@ -34,12 +33,15 @@ function Home() {
               <a
                 href="https://github.com/Flat-Cat/"
                 target="_blank"
-                className="button is-medium is-link">
+                className="button is-medium is-link mt-5">
                 GitHub
               </a>
             </div>
+            <div className="column is-6 py-0 pt-4">
+            <img className="homeimg is-block" id="homeimg" src="/img/home/homepic.png" title="homeimg" />  
+            </div>
 {/* bild */}
-            <img className="homeimg" id="homeimg" src="/img/home/homepic.png" title="homeimg" />  
+          
                 
 {/* Skill-bar*/}
 
@@ -48,7 +50,7 @@ function Home() {
         </div>
       </section>
       <section className="home-skills">
-        <div className="container">
+        <div className="container px-4 py-6">
           <h2>Skills</h2>
           <SkillBar title="HTML & CSS " value={43}></SkillBar>
           <SkillBar title="Javascript & Typescript " value={35}></SkillBar>
@@ -63,7 +65,7 @@ function Home() {
       </section>
 {/* contact me */}
       <section className="home-contact">
-        <div className="container">
+        <div className="container px-4 py-6">
           <Contact></Contact>
         </div>
       </section>

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import "./navbar.scss"
 type navbarProps = {
   title: string;
 }
@@ -18,11 +18,12 @@ function Navbar(_props: navbarProps) {
         <img src="favicon.svg" title="title02" width="32" height="32" />
         </Link>
 
-        <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        {/* <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
-        </a>
+        </a> */}
+      
       </div>
 
       <div id="navbarBasicExample" className="navbar-menu">
