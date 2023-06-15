@@ -12,7 +12,7 @@ function Resume() {
             </div>
             {/*___Bild___________________________________________________________________________________*/}
             <div className="column is-9 is-flex is-justify-content-right">
-              <img src="private/other/application_pic.png" width="260"></img>
+            <img src="private/other/application_pic.png" width="260"></img>
             </div>
           </div>
           {/*___Training 1___________________________________________________________________________________ */}

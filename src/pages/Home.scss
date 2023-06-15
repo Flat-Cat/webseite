@@ -6,7 +6,7 @@
 }
 .Home .home-introduction {
   background: #242329;
-  padding: spacings.$largest;
+
 }
 .Home .home-introduction path {
   fill: pink;
@@ -52,10 +52,9 @@
   background:colors.$flatcat-secondary-dark;
 }
 //Bild
-.Home .homeimage01 {
-  width: 10px; /* Breite des Bildes */
-  height: auto;
-  margin-right: auto;
+.Home .homeimg {
+  width: 600px; /* Breite des Bildes */
+  
 }
 
 .contactForm {

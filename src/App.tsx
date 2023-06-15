@@ -21,15 +21,16 @@ function App() {
     <Router>
     <Navbar title="Navbar"></Navbar> 
 
+    <div style={{marginTop: "52px"}}>
       <Routes>
         <Route path="/resume" element={<Resume/>}/>
         <Route path="/" element={<Home/>}/>
-
+        
         <Route path="/artgallery" element={<ArtGallery/>}/>
 
         <Route path="/contact" element={<Contact/>}/>
       </Routes>
-
+    </div>
       <footer className="footer has-background-primary-light">
   <div className="content has-text-centered">
 

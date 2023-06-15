@@ -1,7 +1,9 @@
 import "./Home.scss";
-import './Resume.scss'
 import SkillBar from '../components/SkillBar/SkillBar'
 import Contact from '../components/Contact/Contact'
+import Resume from "./Resume";
+import { Link } from "react-router-dom";
+
 
 function Home() {
   const onContact = () => {
@@ -9,20 +11,19 @@ function Home() {
   };
   // HomePictures
   return (
-    <div className="Home">
-      <section className="home-introduction has-background-white-ter">
+    <div className="Home ">
+      
+      <section className="home-introduction has-background-white-ter pt-6">
         <div className="container ">
+{/* columns*/}
           <div className="columns my-0 ">
-            <div className="column is-7 textColumn">
-              <div className="mt-5 home-lead">
-                Developer and Artist
+            <div className="column is-6 ">
+              <div className="mt-5 home-lead "> Developer and Artist 
               </div>
-              <h1>
-                My Name is Jenny!
-                <br />
+              <h1> 
+                My Name is Jenny! <br/>
                 Nice to meet you!
               </h1>
-              <div className="column is-3"></div>
 {/* Button */}
               <button
                 className="button is-medium is-primary mr-5"
@@ -37,11 +38,12 @@ function Home() {
                 GitHub
               </a>
             </div>
-
+{/* bild */}
+            <img className="homeimg" id="homeimg" src="/img/home/homepic.png" title="homeimg" />  
+                
 {/* Skill-bar*/}
-            <div className="column is-2 py-0"></div>
-            <div className="column is-3 py-0 picColumn">
-            </div>
+
+
           </div>
         </div>
       </section>
@@ -53,8 +55,11 @@ function Home() {
           <SkillBar title="React" value={39}></SkillBar>
           <SkillBar title="Java Spring Boot" value={100}></SkillBar>
           <div>Wanna know more what else I can do?</div>
-          <button className="button is-medium is-white mr-5">Resume</button>
-        </div>
+{/* Resume Button */}
+          <Link className="button is-medium is-white mr-5" to="/resume">Resume</Link>
+          </div>
+{/*x Hier farbe ändern */}
+        
       </section>
 {/* contact me */}
       <section className="home-contact">

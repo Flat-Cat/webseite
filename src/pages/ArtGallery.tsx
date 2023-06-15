@@ -2,7 +2,13 @@ import "./ArtGallery.scss";
 
 function ArtGallery() {
   return (
-    <div className="gallery mt-6">
+
+    <div className="container">
+      <div className="columns">
+        <div className="column">
+
+
+        <div className="gallery mt-6">
       <h1 className="title has-text-black">Art Gallery</h1>
       {[
         { src: 'bild01.webp', caption: 'Nyam', description: 'Aquarelle, Fineliner' },
@@ -19,15 +25,20 @@ function ArtGallery() {
         { src: 'bild13.webp', caption: 'Us', description: 'Aquarelle, Fineliner' },
         { src: 'bild14.webp', caption: 'Planty Handy', description: 'Aquarelle' },
         { src: 'bild05.webp', caption: 'it tikles!', description: 'Gouache' },
+
       ].map((item, index) => (
+
         <div className="gallery-item" key={index}>
-          <figure>
+
+          <div className="card">
+            <div className="card-image">
+            <figure>
             <a href={`img/artgallery/${item.src}`} target="_blank" rel="noopener noreferrer">
               <img src={`img/artgallery/thumbnails/${item.src}`} alt={item.caption} />
             </a>
           </figure>
-          <div className="card">
-            <div className="card-image"></div>
+
+            </div>
             <div className="card-content">
               <div className="media">
                 <div className="media-left"></div>
@@ -40,6 +51,11 @@ function ArtGallery() {
           </div>
         </div>
       ))}
+      
+        </div>
+      </div>
+
+    </div>
     </div>
   );
 }
