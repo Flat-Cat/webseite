@@ -9,13 +9,13 @@
 
 }
 .Home .home-introduction path {
-  fill: pink;
+  fill: rgb(0, 98, 105);
 
   // fill: colors.$flatcat-secondary-darkest;
 }
 .Home .home-introduction path:hover {
   transform: rotate(360deg);
-  transform-origin: 80% 70%;
+  transform-origin: 80% 60%;
   transition: all 5s ease;
 
 }
@@ -25,7 +25,7 @@
 }
 
 .Home .home-skills {
-  background: colors.$flatcat-primary;
+  background: colors.$flatcat-primary-pastell;
 //  padding: spacings.$largest;
   
 }
@@ -39,7 +39,7 @@
 .Home h1 {
   font-size: 48px;
   font-weight: 800;
-  background: linear-gradient(90deg, colors.$flatcat-primary, colors.$flatcat-primary-dark);
+  background: linear-gradient(90deg, colors.$flatcat-primary, colors.$flatcat-secondary-darker);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -57,6 +57,6 @@
   
 }
 
-.contactForm {
-  background:colors.$flatcat-milky-background;
-}
+// .contactForm {
+//   background:colors.$flatcat-milky-background;
+// }

@@ -9,6 +9,7 @@ import Home from './pages/Home'
 import Contact from './components/Contact/Contact'
 import Resume from "./pages/Resume";
 import ArtGallery from "./pages/ArtGallery.tsx";
+import Imprint from './pages/Imprint.tsx'
 import 'react-tooltip/dist/react-tooltip.css'
 
 function App() {
@@ -29,16 +30,19 @@ function App() {
         <Route path="/artgallery" element={<ArtGallery/>}/>
 
         <Route path="/contact" element={<Contact/>}/>
+
+        <Route path="/imprint" element={<Imprint/>}/>
+
       </Routes>
     </div>
       <footer className="footer has-background-primary-light">
   <div className="content has-text-centered">
 
-    <strong>Website </strong>
+    <strong>Website & Artgallery</strong>
     <span>Copyright  ©Jennifer Flaig</span>
     <p>
-      <span>Art in home-side (?) by </span>
-      <a href="https://z0r.de/" target="_blank">
+      <span>Art in Home-Page by </span>
+      <a href="https://www.youtube.com/@StudioBakuAnimation" target="_blank">
       Studio Baku
     </a>
     </p>

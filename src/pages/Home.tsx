@@ -25,7 +25,7 @@ function Home() {
               </h1>
 {/* Button */}
               <button
-                className="button is-medium is-primary mr-5 mt-5"
+                className="button is-medium is-primary is-outlined mr-5 mt-5"
                 onClick={onContact}>
                 Contact me
               </button>
@@ -33,7 +33,7 @@ function Home() {
               <a
                 href="https://github.com/Flat-Cat/"
                 target="_blank"
-                className="button is-medium is-link mt-5">
+                className="button is-medium is-link is-outlined mt-5">
                 GitHub
               </a>
             </div>
@@ -58,14 +58,14 @@ function Home() {
           <SkillBar title="Java Spring Boot" value={100}></SkillBar>
           <div>Wanna know more what else I can do?</div>
 {/* Resume Button */}
-          <Link className="button is-medium is-white mr-5" to="/resume">Resume</Link>
+          <Link className="button is-medium is-white mr-5 mt-5 is-link  " to="/resume">Resume</Link>
           </div>
 {/*x Hier farbe ändern */}
         
       </section>
 {/* contact me */}
-      <section className="home-contact">
-        <div className="container px-4 py-6">
+      <section className="home-contact has-background-white-ter">
+        <div className="container px-4 py-6 ">
           <Contact></Contact>
         </div>
       </section>
