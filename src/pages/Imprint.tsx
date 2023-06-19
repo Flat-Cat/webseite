@@ -23,7 +23,7 @@ function Imprint() {
         </h1>
 
         <h1 className="is-size-6">
-        Flaig_1994@pm.me
+   
         <br/>
         +00 123456789
         </h1>
