@@ -1,7 +1,7 @@
 import './App.scss'
 
 import Navbar from './components/Navbar'
-import { BrowserRouter as Router, Routes, Route }
+import { BrowserRouter as Router, Routes, Route, Link }
   from "react-router-dom";
 
 import "./App.scss";
@@ -44,6 +44,13 @@ function App() {
       <span>Art in Home-Page by </span>
       <a href="https://www.youtube.com/@StudioBakuAnimation" target="_blank">
       Studio Baku
+
+      <a href="hier drinnen" target="_blank">
+      Studio Baku </a>
+      <span> | </span>
+            <Link to="/imprint">Imprint</Link>
+   
+    
     </a>
     </p>
 

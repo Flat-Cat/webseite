@@ -31,7 +31,6 @@ function Navbar(_props: navbarProps) {
 
           <Link className="navbar-item" to="/resume">Resume</Link>
           <Link className="navbar-item" to="/artgallery">Art Gallery</Link>
-          <Link className="navbar-item" to="/imprint">Imprint</Link>
 
         </div>
       </div>

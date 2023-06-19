@@ -14,7 +14,7 @@ function Imprint() {
         </h1>
 
         <h1 className="is-size-6">    
-        (?) Test Street 12, 12345 Example City
+        email / adress
         <br />
         </h1>
 
@@ -23,7 +23,7 @@ function Imprint() {
         </h1>
 
         <h1 className="is-size-6">
-        contakt@example.com, 
+        Flaig_1994@pm.me
         <br/>
         +00 123456789
         </h1>
