@@ -1,7 +1,8 @@
 import './App.scss'
 
 import Navbar from './components/Navbar'
-import { BrowserRouter as Router, Routes, Route, Link }
+import { BrowserRouter as Router, Routes, Route, //Link 
+}
   from "react-router-dom";
 
 import "./App.scss";
