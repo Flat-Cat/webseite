@@ -9,7 +9,7 @@ import Home from './pages/Home'
 import Contact from './components/Contact/Contact'
 import Resume from "./pages/Resume";
 import ArtGallery from "./pages/ArtGallery.tsx";
-import Imprint from './pages/Imprint.tsx'
+// import Imprint from './pages/Imprint.tsx'
 import 'react-tooltip/dist/react-tooltip.css'
 
 function App() {
@@ -31,25 +31,22 @@ function App() {
 
         <Route path="/contact" element={<Contact/>}/>
 
-        <Route path="/imprint" element={<Imprint/>}/>
+        {/* <Route path="/imprint" element={<Imprint/>}/> */}
 
       </Routes>
     </div>
       <footer className="footer has-background-primary-light">
   <div className="content has-text-centered">
 
-    <strong>Website & Artgallery</strong>
-    <span>Copyright  ©Jennifer Flaig</span>
+    <strong>Website & Artgallery </strong>
+    <span>Copyright  ©Jennifer Flaig <strong>E-mail: </strong> Flaig_1994@pm.me</span>
     <p>
       <span>Art in Home-Page by </span>
       <a href="https://www.youtube.com/@StudioBakuAnimation" target="_blank">
-      Studio Baku
+      ©Studio Baku
 
-      <a href="hier drinnen" target="_blank">
-      Studio Baku </a>
-      <span> | </span>
-            <Link to="/imprint">Imprint</Link>
-   
+      {/* <span> | </span> */}
+      {/* <Link to="/imprint">Imprint</Link>*/}
     
     </a>
     </p>
