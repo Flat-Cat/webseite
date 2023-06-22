@@ -191,18 +191,17 @@ function Resume() {
             <div className="container">
               <SkillBar title="HTML & CSS " value={43}></SkillBar>
               <SkillBar title="Javascript & Typescript " value={35}></SkillBar>
-              <SkillBar title="React" value={39}></SkillBar>
-              <SkillBar title="Java Spring Boot" value={100}></SkillBar>
+              <SkillBar title="Java" value={21}></SkillBar>
 
-              <h2>Other skills?</h2>
+              <h2>Other skills</h2>
 
-              <SkillBar title="MariaDB, MySQL" value={43}></SkillBar>
-              <SkillBar title="Java, Java Spring boot" value={35}></SkillBar>
-              <SkillBar title="Html, css & scss, Bulma CMS Strapi" value={39}></SkillBar>
-              <SkillBar title="JavaScript, TypeScript, React" value={100}></SkillBar>
+              <SkillBar title="MariaDB, MySQL" value={40}></SkillBar>
+              <SkillBar title="Java Spring boot" value={31}></SkillBar>
+              <SkillBar title="Bulma, CMS Strapi" value={19}></SkillBar>
+              <SkillBar title="React" value={49}></SkillBar>
               <SkillBar title="Postman, Swagger" value={43}></SkillBar>
-              <SkillBar title="Clojure, Calva & Leiningen" value={35}></SkillBar>
-              <SkillBar title="ClojureScript, ReFrame, DataHike" value={39}></SkillBar>
+              <SkillBar title="Clojure, Calva & Leiningen" value={15}></SkillBar>
+              <SkillBar title="ClojureScript, ReFrame, DataHike" value={24}></SkillBar>
 
             </div>
           </section>
