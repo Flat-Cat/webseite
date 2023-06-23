@@ -189,19 +189,22 @@ function Resume() {
           <h2 className="title pb-5 has-background-white-ter">Skills</h2>
           <section className="skills has-background-white-ter">
             <div className="container">
+              <h2>Programming Languages</h2>
               <SkillBar title="HTML & CSS " value={43}></SkillBar>
               <SkillBar title="Javascript & Typescript " value={35}></SkillBar>
               <SkillBar title="Java" value={21}></SkillBar>
+              <SkillBar title="ClojureScript & Clojure" value={21}></SkillBar>
+              <SkillBar title="SQL" value={46}></SkillBar>
 
               <h2>Other skills</h2>
 
               <SkillBar title="MariaDB, MySQL" value={40}></SkillBar>
-              <SkillBar title="Java Spring boot" value={31}></SkillBar>
-              <SkillBar title="Bulma, CMS Strapi" value={19}></SkillBar>
-              <SkillBar title="React" value={49}></SkillBar>
-              <SkillBar title="Postman, Swagger" value={43}></SkillBar>
-              <SkillBar title="Clojure, Calva & Leiningen" value={15}></SkillBar>
-              <SkillBar title="ClojureScript, ReFrame, DataHike" value={24}></SkillBar>
+              <SkillBar title="Java Spring boot" value={29}></SkillBar>
+              <SkillBar title="Bulma, CMS Strapi" value={23}></SkillBar>
+              <SkillBar title="React" value={46}></SkillBar>
+              <SkillBar title="Postman, Swagger" value={39}></SkillBar>
+              <SkillBar title="Calva & Leiningen" value={15}></SkillBar>
+              <SkillBar title="ReFrame & DataHike" value={19}></SkillBar>
 
             </div>
           </section>
