@@ -205,6 +205,7 @@ function Resume() {
               <SkillBar title="Postman, Swagger" value={39}></SkillBar>
               <SkillBar title="Calva & Leiningen" value={15}></SkillBar>
               <SkillBar title="ReFrame & DataHike" value={19}></SkillBar>
+              <SkillBar title="Docker" value={13}></SkillBar>
 
             </div>
           </section>
