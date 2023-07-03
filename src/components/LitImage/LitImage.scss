@@ -1,0 +1,49 @@
+  .lit-image {
+      display: block;
+      position: relative;
+  }
+
+  .lit-placeholder {
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      overflow: hidden;
+      background-size: cover;
+      background-position: center;
+  }
+
+  .lit-image .lit-placeholder {
+      background-position: center 10%;
+      background-size: 80%;
+      background-repeat: no-repeat;
+      filter: blur(3px);
+      will-change: filter;
+  }
+
+  .lit-image .lit-placeholder.loaded {
+      filter: blur(0);
+      transition: 0.5s filter ease-in-out;
+  }
+
+  .lit-image img {
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      max-width: 100%;
+      max-height: 100%;
+      margin: 0 auto;
+      opacity: 0;
+  }
+
+  .lit-image img {
+      left: -9999px;
+      right: -9999px;
+      max-width: none;
+  }
+
+  .lit-placeholder.loaded img {
+      opacity: 1;
+      transition: 0.5s opacity;
+  }

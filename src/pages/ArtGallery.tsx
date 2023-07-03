@@ -1,4 +1,5 @@
 import "./ArtGallery.scss";
+import LitImage from "../components/LitImage/LitImage";
 
 function ArtGallery() {
   return (
@@ -8,16 +9,16 @@ function ArtGallery() {
         <div className="column">
 
 
-          <div className="gallery mt-6">
+          <div className="gallery my-6">
             <div>
               <h1 className="title has-text-black">Art Gallery</h1>
-              <p>
+              <div>
                 <p className="mt-3">
                   <strong>Why I draw?</strong>
                 </p>
                 Painting is for me a valuable stress relief and expression of myself.
                 It simply gives me fun and joy. Through the creative activity I find inner peace and relaxation.
-              </p>
+              </div>
               <p className="mt-3 mb-3">
                 <em>
                   Gouache, colored pencils, fineliners and watercolors are used as painting tools.
@@ -48,7 +49,8 @@ function ArtGallery() {
                   <div className="card-image">
                     <figure>
                       <a href={`img/artgallery/${item.src}`} target="_blank" rel="noopener noreferrer">
-                        <img src={`img/artgallery/thumbnails/${item.src}`} alt={item.caption} />
+                        {/* <img src={`img/artgallery/thumbnails/${item.src}`} alt={item.caption} /> */}
+                       <LitImage src={`img/artgallery/thumbnails/${item.src}`} alt={item.caption}></LitImage> 
                       </a>
                     </figure>
 
