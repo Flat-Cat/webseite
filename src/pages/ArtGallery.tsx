@@ -14,7 +14,7 @@ function ArtGallery() {
               <h1 className="title has-text-black">Art Gallery</h1>
               <div>
                 <p className="mt-3">
-                  <strong>Why I draw?</strong>
+                  <strong>Why do I draw?</strong>
                 </p>
                 Painting is for me a valuable stress relief and expression of myself.
                 It simply gives me fun and joy. Through the creative activity I find inner peace and relaxation.
