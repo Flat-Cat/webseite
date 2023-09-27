@@ -52,10 +52,10 @@ function Home() {
       <section className="home-skills">
         <div className="container px-4 py-6">
           <h2>Skills</h2>
-          <SkillBar title="HTML & CSS " value={43}></SkillBar>
-          <SkillBar title="Javascript & Typescript " value={35}></SkillBar>
-          <SkillBar title="React" value={39}></SkillBar>
-          <SkillBar title="Java Spring Boot" value={100}></SkillBar>
+          <SkillBar title="HTML & CSS " value={41}></SkillBar>
+          <SkillBar title="Javascript & Typescript " value={39}></SkillBar>
+          <SkillBar title="React" value={41}></SkillBar>
+          <SkillBar title="Java Spring Boot" value={24}></SkillBar>
           <div>Wanna know more what else I can do?</div>
 {/* Resume Button */}
           <Link className="button is-medium is-white mr-5 mt-5 is-link  " to="/resume">Resume</Link>
