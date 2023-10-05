@@ -20,14 +20,8 @@
 
 }
 
-.Home .home-lead {
-  // color: white;
-}
-
 .Home .home-skills {
   background: colors.$flatcat-primary-pastell;
-//  padding: spacings.$largest;
-  
 }
 
 .Home .home-contact {
@@ -39,7 +33,7 @@
 .Home h1 {
   font-size: 48px;
   font-weight: 800;
-  background: linear-gradient(90deg, colors.$flatcat-primary, colors.$flatcat-secondary-darker);
+  background:  lightgrey;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -49,6 +43,9 @@
 }
 //Knopf2
 .Home .introduction .buttonGithub {
+  background:colors.$flatcat-secondary-dark;
+}
+.Home .introduction .Resume {
   background:colors.$flatcat-secondary-dark;
 }
 //Bild

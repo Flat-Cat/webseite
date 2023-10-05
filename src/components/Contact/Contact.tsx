@@ -1,6 +1,5 @@
 
 import { FormEvent } from "react";
-import "./Contact.scss"
 
 function Contact() {
 

@@ -12,12 +12,12 @@ function Home() {
   return (
     <div className="Home ">
       
-      <section className="home-introduction has-background-white-ter pt-6">
+      <section className="home-introduction has-background-white-bis pt-6">
         <div className="container px-4">
 {/* columns*/}
           <div className="columns my-0 ">
             <div className="column is-6 py-0">
-              <div className="mt-5 home-lead "> Developer and Artist 
+              <div className="mt-5 home-lead has-text-grey-lighter"> Developer and Artist 
               </div>
               <h1> 
                 My Name is Jenny! <br/>
@@ -58,13 +58,13 @@ function Home() {
           <SkillBar title="Java Spring Boot" value={24}></SkillBar>
           <div>Wanna know more what else I can do?</div>
 {/* Resume Button */}
-          <Link className="button is-medium is-white mr-5 mt-5 is-link  " to="/resume">Resume</Link>
+          <Link className="button is-medium is-white mr-5 mt-5 is-link is-outlined  " to="/resume">Resume</Link>
           </div>
 {/*x Hier farbe ändern */}
         
       </section>
 {/* contact me */}
-      <section className="home-contact has-background-white-ter">
+      <section className="home-contact has-background-white-bis">
         <div className="container px-4 py-6 ">
           <Contact></Contact>
         </div>

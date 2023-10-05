@@ -186,8 +186,8 @@ function Resume() {
             </ul>
           </div>
           {/* _Skill-bar_________________________________________________*/}
-          <h2 className="title pb-5 has-background-white-ter">Skills</h2>
-          <section className="skills has-background-white-ter">
+          <h2 className="title pb-5 has-background-white-bis">Skills</h2>
+          <section className="skills has-background-white-bis">
             <div className="container">
               <h2>Programming Languages</h2>
               <SkillBar title="HTML & CSS " value={43}></SkillBar>
@@ -226,7 +226,7 @@ function Resume() {
             </div>
             <div className="column">
 {/* _hobbys_________________________________________________*/}
-            <h2 className="title pb-5 has-background-white-ter">Hobbys</h2>
+            <h2 className="title pb-5 has-background-white-bis">Hobbys</h2>
               <div className="content">
                 <ul>
                   <li>Reading Books</li>
